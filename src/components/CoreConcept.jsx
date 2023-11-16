@@ -1,4 +1,4 @@
-function CoreConcept({image, title, description}) {//object destructuring with extra {}
+function CoreConcept({ image, title, description }) {//object destructuring with extra {}
     return (
       <li>
         <img src={image} alt={title} />
